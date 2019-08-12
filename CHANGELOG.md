@@ -1,3 +1,14 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/mmpro/ac-logger/compare/v1.0.1...v1.0.2) (2019-08-12 06:59)
+
+
+### Bug Fixes
+
+* **App:** Log to file in test mode | MP ([a496208](https://github.com/mmpro/ac-logger/commit/a496208))    
+  Log to test.log in test mode
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/mmpro/ac-logger/compare/v1.0.0...v1.0.1) (2019-08-11 17:20)
 
