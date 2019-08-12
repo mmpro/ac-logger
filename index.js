@@ -50,8 +50,8 @@ module.exports = (config) => {
 
   if (process.env.NODE_ENV === 'test') {
     acLogger.add(new transports.File({
-      filename: 'error.log',
-      level: 'error'
+      filename: 'test.log',
+      level: 'debug'
     }))
   }
 
