@@ -7,8 +7,8 @@ const { createLogger, format, transports } = require('winston');
 module.exports = (config) => {
   const prefixFields = _.get(config, 'prefixFields', [])
   const timestampFormat = _.get(config, 'timestampFormat', 'YYYY-MM-DD HH:mm:ss')
-  const level = _.get(config, 'log.level', (process.env.NODE_ENV === 'production' ? 'info' : 'verbose'))
-  const headLength = _.get(config, 'log.headLength', 80)
+  const level = _.get(config, 'level', (process.env.NODE_ENV === 'production' ? 'info' : 'verbose'))
+  const headLength = _.get(config, 'headLength', 80)
   const padLength = _.get(config, 'padLength', 12)
 
   const myFormat = format.printf(({ timestamp, level, message, meta }) => {
