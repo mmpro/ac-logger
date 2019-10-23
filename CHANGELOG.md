@@ -1,3 +1,14 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/mmpro/ac-logger/compare/v1.0.2...v1.0.3) (2019-10-23 12:12)
+
+
+### Bug Fixes
+
+* **App:** Minor fix for config during init | MP ([094eb4950c11c65a302b90c9a3db1c36506938c8](https://github.com/mmpro/ac-logger/commit/094eb4950c11c65a302b90c9a3db1c36506938c8))    
+  Minor fix for config during init
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/mmpro/ac-logger/compare/v1.0.1...v1.0.2) (2019-08-12 06:59)
 
