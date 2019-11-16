@@ -1,3 +1,14 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/mmpro/ac-logger/compare/v1.0.3...v1.0.4) (2019-11-16 14:05)
+
+
+### Bug Fixes
+
+* **App:** Add new fields for serverInfo | MP ([03bc00e3f90689c7953df06a5013351ab4f4b743](https://github.com/mmpro/ac-logger/commit/03bc00e3f90689c7953df06a5013351ab4f4b743))    
+  ServerInfo now supports server, database and user
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/mmpro/ac-logger/compare/v1.0.2...v1.0.3) (2019-10-23 12:12)
 
