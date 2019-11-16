@@ -97,7 +97,7 @@ module.exports = (config) => {
    * and connection
    */
   const serverInfo = (params) => {
-    const fields = ['instance', 'host', 'port', 'db']
+    const fields = ['instance', 'server', 'host', 'port', 'db', 'database', 'user']
     _.forEach(fields, field => {
       if (_.get(params, field)) {
         listing({ field: _.upperFirst(field), value: _.get(params, field) })
