@@ -1,3 +1,14 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/mmpro/ac-logger/compare/v1.0.4...v1.0.5) (2019-11-17 07:53)
+
+
+### Bug Fixes
+
+* **App:** Allow fields version and ssl for serverInfo | MP ([464acf0306df79d11abec574a84a3c00dcb12280](https://github.com/mmpro/ac-logger/commit/464acf0306df79d11abec574a84a3c00dcb12280))    
+  Allow fields version and ssl for serverInfo
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/mmpro/ac-logger/compare/v1.0.3...v1.0.4) (2019-11-16 14:05)
 
