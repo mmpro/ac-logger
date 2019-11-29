@@ -1,3 +1,14 @@
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/mmpro/ac-logger/compare/v1.0.5...v1.0.6) (2019-11-29 09:54)
+
+
+### Bug Fixes
+
+* **App:** Added field for serverInfo | MP ([12947ce797a556e6902686e32d272ebff46bdd4b](https://github.com/mmpro/ac-logger/commit/12947ce797a556e6902686e32d272ebff46bdd4b))    
+  Added field for serverInfo
+
+
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/mmpro/ac-logger/compare/v1.0.4...v1.0.5) (2019-11-17 07:53)
 
