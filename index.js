@@ -75,7 +75,8 @@ module.exports = (config) => {
   }
 
   const bootstrapInfo = (params) => {
-    const pjson = require(path.resolve(process.env.PWD, 'package.json'))
+    const pwd = _.get(process, 'env.PWD', process.cwd()) 
+    const pjson = require(path.resolve(pwd, 'package.json'))
     const environment = process.env.NODE_ENV || 'development'
     const appName = _.get(params, 'appName', 'App name missing')
     const padLength = 15
