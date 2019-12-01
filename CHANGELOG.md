@@ -1,3 +1,14 @@
+<a name="1.0.7"></a>
+## [1.0.7](https://github.com/mmpro/ac-logger/compare/v1.0.6...v1.0.7) (2019-12-01 14:46)
+
+
+### Bug Fixes
+
+* **App:** Fixed bootstrapInfo if process.env.PWD is not available | MP ([38c7b611906dc14d743d15267da4035885efd96a](https://github.com/mmpro/ac-logger/commit/38c7b611906dc14d743d15267da4035885efd96a))    
+  Fixed bootstrapInfo if process.env.PWD is not available
+
+
+
 <a name="1.0.6"></a>
 ## [1.0.6](https://github.com/mmpro/ac-logger/compare/v1.0.5...v1.0.6) (2019-11-29 09:54)
 
