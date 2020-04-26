@@ -1,3 +1,14 @@
+<a name="1.0.8"></a>
+
+## [1.0.8](https://github.com/mmpro/ac-logger/compare/v1.0.7..v1.0.8) (2020-04-26 19:24:23)
+
+
+### Bug Fix
+
+* **App:** Add fields cluster and clusterVersion to serverInfo | MP | [80990c98baa773755df34d5e2f85dad3bb187320](https://github.com/mmpro/ac-logger/commit/80990c98baa773755df34d5e2f85dad3bb187320)    
+Add fields cluster and clusterVersion to serverInfo
+* **App:** Prepare package for ac-semantic-release | MP | [7da3a599d4cca5b806cb7ea9cef63bc1404f4b6e](https://github.com/mmpro/ac-logger/commit/7da3a599d4cca5b806cb7ea9cef63bc1404f4b6e)    
+Prepare package for ac-semantic-release
 <a name="1.0.7"></a>
 ## [1.0.7](https://github.com/mmpro/ac-logger/compare/v1.0.6...v1.0.7) (2019-12-01 14:46)
 
