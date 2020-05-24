@@ -28,6 +28,7 @@ module.exports = (config) => {
     if (e instanceof Error) {
       // log the stack
       console.error(e)
+      if (_.get(e, 'message')) message += ' | ' + _.get(e, 'message', '')
     }
     return `${timestamp} ${level} ${fileName}${functionName}${subName}${prefixData}${message}`;
   })
