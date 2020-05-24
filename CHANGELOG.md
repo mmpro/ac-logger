@@ -1,3 +1,16 @@
+<a name="1.0.9"></a>
+
+## [1.0.9](https://github.com/mmpro/ac-logger/compare/v1.0.8..v1.0.9) (2020-05-24 08:54:59)
+
+
+### Bug Fix
+
+* **App:** Improved logging for error stack | MP | [11deed6345079b2aafe22892892146f9786c121b](https://github.com/mmpro/ac-logger/commit/11deed6345079b2aafe22892892146f9786c121b)    
+Improved logging for error stack
+### Chores
+
+* **App:** Updated packages | MP | [874176edc53df92b5d8de3865072211f7b74912c](https://github.com/mmpro/ac-logger/commit/874176edc53df92b5d8de3865072211f7b74912c)    
+Updated packages
 <a name="1.0.8"></a>
 
 ## [1.0.8](https://github.com/mmpro/ac-logger/compare/v1.0.7..v1.0.8) (2020-04-26 19:24:23)
