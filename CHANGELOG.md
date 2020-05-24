@@ -1,3 +1,12 @@
+<a name="1.0.10"></a>
+
+## [1.0.10](https://github.com/mmpro/ac-logger/compare/v1.0.9..v1.0.10) (2020-05-24 10:08:26)
+
+
+### Bug Fix
+
+* **App:** Add error message from e (stack) to message | MP | [014457f8cce91b82d68940d4ea4366c27502da5e](https://github.com/mmpro/ac-logger/commit/014457f8cce91b82d68940d4ea4366c27502da5e)    
+Automatically add error message from stack to message
 <a name="1.0.9"></a>
 
 ## [1.0.9](https://github.com/mmpro/ac-logger/compare/v1.0.8..v1.0.9) (2020-05-24 08:54:59)
