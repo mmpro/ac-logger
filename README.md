@@ -28,6 +28,31 @@ app.log.info('Message for %s', 'some string', { meta: logMeta })
 
 ```
 
+## Error logging
+If you want to add the stack (from an error instance) to an error log use it like this:
+```
+try {
+  let data = Buffer.from()
+}
+catch(e) {
+  app.log.error('We have encountered an error in module %s', 'Module name', { e })
+}
+```
+
+This will result in a nice log entry and above that a console.error message with the stack from e.
+
+If you want to log a custom error message, not an error instance, you can use it like this:
+```
+let errorMessage = {
+  message: 'user_emailWrong',
+  code: 1234
+}
+app.log.error('We have encountered an error in module %s - %j', 'Module name', errorMessage)
+
+// -> We have encountered an error in module Module name - { message: 'user_emailWrong', code: 1234 }
+```
+
+
 #Helper functions
 To improve the logging even more, there are several helper functions available
 

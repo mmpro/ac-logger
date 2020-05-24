@@ -11,7 +11,7 @@ module.exports = (config) => {
   const headLength = _.get(config, 'headLength', 80)
   const padLength = _.get(config, 'padLength', 12)
 
-  const myFormat = format.printf(({ timestamp, level, message, meta }) => {
+  const myFormat = format.printf(({ timestamp, level, message, meta, e }) => {
     const fileName = _.get(meta, 'fileName') ? _.get(meta, 'fileName') + ' | ' : ''
     const functionName = _.get(meta, 'functionName') ? _.get(meta, 'functionName') + ' | ' : ''
     const subName = _.get(meta, 'sub') ? _.get(meta, 'sub') + ' | ' : ''
@@ -25,6 +25,10 @@ module.exports = (config) => {
       }  
     })
     const prefixData = _.size(prefix) ? (_.join(prefix, '/') + ' ' + _.join(data, '/') + ' | ') : ''
+    if (e instanceof Error) {
+      // log the stack
+      console.error(e)
+    }
     return `${timestamp} ${level} ${fileName}${functionName}${subName}${prefixData}${message}`;
   })
 
