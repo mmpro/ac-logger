@@ -6,7 +6,7 @@
   "version": "1.0.10",
   "dependencies": {
     "ac-semantic-release": "^0.1.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.26.0",
     "winston": "^3.2.1"
   },
