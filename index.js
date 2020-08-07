@@ -2,7 +2,7 @@ const _ = require('lodash')
 const moment = require('moment')
 const path = require('path')
 
-const { createLogger, format, transports } = require('winston');
+const { createLogger, format, transports, addColors } = require('winston');
 
 module.exports = (config) => {
   const prefixFields = _.get(config, 'prefixFields', [])
@@ -10,6 +10,7 @@ module.exports = (config) => {
   const level = _.get(config, 'level', (process.env.NODE_ENV === 'production' ? 'info' : 'verbose'))
   const headLength = _.get(config, 'headLength', 80)
   const padLength = _.get(config, 'padLength', 12)
+  const customLevels = _.get(config,'customLevels')
 
   const myFormat = format.printf(({ timestamp, level, message, meta, e }) => {
     const fileName = _.get(meta, 'fileName') ? _.get(meta, 'fileName') + ' | ' : ''
@@ -33,7 +34,7 @@ module.exports = (config) => {
     return `${timestamp} ${level} ${fileName}${functionName}${subName}${prefixData}${message}`;
   })
 
-  const acLogger = createLogger({
+  const logConfig = {
     level,
     format: format.combine(
       format.timestamp({
@@ -51,7 +52,11 @@ module.exports = (config) => {
     transports: [
       new transports.Console()
     ]
-  })
+  }
+  if (_.get(customLevels, 'levels')) _.set(logConfig, 'levels', _.get(customLevels, 'levels'))
+
+  const acLogger = createLogger(logConfig)
+  if (_.get(customLevels, 'colors')) addColors(_.get(customLevels, 'colors'))
 
   if (process.env.NODE_ENV === 'test') {
     acLogger.add(new transports.File({
