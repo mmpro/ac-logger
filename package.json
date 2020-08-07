@@ -3,7 +3,7 @@
   "author": "Mark Poepping (https://www.mmpro.de)",
   "license": "MIT",
   "repository": "mmpro/ac-logger",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "dependencies": {
     "lodash": "^4.17.19",
     "moment": "^2.26.0",

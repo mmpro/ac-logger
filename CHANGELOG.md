@@ -1,3 +1,16 @@
+<a name="1.0.11"></a>
+
+## [1.0.11](https://github.com/mmpro/ac-logger/compare/v1.0.10..v1.0.11) (2020-08-07 11:54:29)
+
+
+### Bug Fix
+
+* **App:** Allow option for custom log levels and colors | MP | [e264693e5b051b06aea06247b1ebd3af8b07e5ab](https://github.com/mmpro/ac-logger/commit/e264693e5b051b06aea06247b1ebd3af8b07e5ab)    
+Allow option for custom log levels and colors
+### Chores
+
+* **App:** Updated packages | MP | [a5f4c1df1c0f56aea2311dd47ab7249445c292b5](https://github.com/mmpro/ac-logger/commit/a5f4c1df1c0f56aea2311dd47ab7249445c292b5)    
+Updated packages
 <a name="1.0.10"></a>
 
 ## [1.0.10](https://github.com/mmpro/ac-logger/compare/v1.0.9..v1.0.10) (2020-05-24 10:08:26)
