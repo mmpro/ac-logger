@@ -1,3 +1,20 @@
+<a name="1.1.0"></a>
+ 
+# [1.1.0](https://github.com/mmpro/ac-logger/compare/v1.0.11..v1.1.0) (2020-08-14 15:18:19)
+
+
+### Feature
+
+* **App:** Add new function timeEnd for profiling | MP | [0450766073a81dbbd92904f1884ec1acbddc429a](https://github.com/mmpro/ac-logger/commit/0450766073a81dbbd92904f1884ec1acbddc429a)    
+Add new function timeEnd for profiling
+### Chores
+
+* **App:** Updated packages | MP | [ab28c29f3d96cc2de04db8133bd140f4387cc130](https://github.com/mmpro/ac-logger/commit/ab28c29f3d96cc2de04db8133bd140f4387cc130)    
+Updated packages
+### Chores
+
+* **App:** ESLint now supports env es2020 | MP | [78f58d582ef504171501b902530feecf75aaf260](https://github.com/mmpro/ac-logger/commit/78f58d582ef504171501b902530feecf75aaf260)    
+ESLint now support BigInt and other items from es2020
 <a name="1.0.11"></a>
 
 ## [1.0.11](https://github.com/mmpro/ac-logger/compare/v1.0.10..v1.0.11) (2020-08-07 11:54:29)
