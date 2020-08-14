@@ -5,14 +5,14 @@
   "repository": "mmpro/ac-logger",
   "version": "1.0.11",
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "moment": "^2.26.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
     "ac-semantic-release": "^0.2.2",
     "eslint": "^7.1.0",
-    "expect": "^26.0.1",
+    "expect": "^26.4.0",
     "mocha": "^8.1.1",
     "mocha-jenkins-reporter": "^0.4.3"
   },
