@@ -12,6 +12,12 @@ module.exports = (config) => {
   const padLength = _.get(config, 'padLength', 12)
   const customLevels = _.get(config,'customLevels')
 
+  const precisionMap = [
+    { precision: 1e6, name: 'ms' },
+    { precision: 1e3, name: 'µs' },
+    { precision: 1, name: 'ns' },
+  ]
+
   const myFormat = format.printf(({ timestamp, level, message, meta, e }) => {
     const fileName = _.get(meta, 'fileName') ? _.get(meta, 'fileName') + ' | ' : ''
     const functionName = _.get(meta, 'functionName') ? _.get(meta, 'functionName') + ' | ' : ''
@@ -131,6 +137,14 @@ module.exports = (config) => {
     })
   }
 
+  const timeEnd = (profile, start, precision = 1e6) => {
+    const end = process.hrtime.bigint()
+    const div = BigInt(precision)
+    const sec = _.find(precisionMap, { precision })
+    const s =  (end - start)/div
+    acLogger.debug(`Profiling | ${profile} | ${s}${sec.name}`)
+  }
+
   return {
     acLogger,
     headline,
@@ -138,6 +152,7 @@ module.exports = (config) => {
     listing,
     bootstrapInfo,
     serverInfo,
-    acSESnfo
+    acSESnfo,
+    timeEnd
   }
 }
