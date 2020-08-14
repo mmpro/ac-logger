@@ -2,7 +2,7 @@ const config = {
   root: true,
   'env': {
     'commonjs': true,
-    'es6': true,
+    'es2020': true,
     'node': true
   },
   'extends': 'eslint:recommended',
