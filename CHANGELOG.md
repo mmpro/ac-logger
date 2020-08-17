@@ -1,3 +1,16 @@
+<a name="1.1.1"></a>
+
+## [1.1.1](https://github.com/mmpro/ac-logger/compare/v1.1.0..v1.1.1) (2020-08-17 17:16:13)
+
+
+### Bug Fix
+
+* **App:** Fixed how to determine version from package.json | MP | [c946bd3f833db4644d757ab83597ae7985d75ade](https://github.com/mmpro/ac-logger/commit/c946bd3f833db4644d757ab83597ae7985d75ade)    
+Use process.cwd() to determine the root directory and read package.json from there.
+### Chores
+
+* **App:** Updated packages | MP | [222fc39620706285db1351eff4dc03c4e2c7b2e2](https://github.com/mmpro/ac-logger/commit/222fc39620706285db1351eff4dc03c4e2c7b2e2)    
+Updated packages
 <a name="1.1.0"></a>
  
 # [1.1.0](https://github.com/mmpro/ac-logger/compare/v1.0.11..v1.1.0) (2020-08-14 15:18:19)
