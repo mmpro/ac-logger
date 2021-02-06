@@ -85,9 +85,10 @@ module.exports = (config) => {
   const listing = (params) => {
     const field = _.upperFirst(_.get(params, 'field'))
     const value = _.get(params, 'value')
+    const level = _.get(params, 'level', 'info')
 //    const padField = _.get(meta, 'padField') ? (_.padEnd((_.get(meta, 'padField.field') + ': '), _.get(meta, 'padField.padLength', padLength)) + (_.get(meta, 'padField.value') === 200 ? '\x1b[32mSuccessful\x1b[0m' : _.get(meta, 'padField.value'))) : ''
     const message = _.padEnd((field + _.get(params, 'separator', '')), _.get(params, 'padLength', padLength)) + (value === 200 ? '\x1b[32mSuccessful\x1b[0m' : value)
-    acLogger.info(message)
+    acLogger[level](message)
   }
 
   const bootstrapInfo = (params) => {
