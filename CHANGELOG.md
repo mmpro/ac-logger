@@ -1,3 +1,16 @@
+<a name="1.1.2"></a>
+
+## [1.1.2](https://github.com/mmpro/ac-logger/compare/v1.1.1..v1.1.2) (2021-02-06 07:01:04)
+
+
+### Bug Fix
+
+* **App:** Allow optional level for listing | MP | [3c01205944643adad7d49f95856c3fabbfb25999](https://github.com/mmpro/ac-logger/commit/3c01205944643adad7d49f95856c3fabbfb25999)    
+Default level is info, but you set a different one now
+### Chores
+
+* **App:** Updated packages | MP | [c22a34e2a833f35ee836dfd2985e71bdfa840825](https://github.com/mmpro/ac-logger/commit/c22a34e2a833f35ee836dfd2985e71bdfa840825)    
+Updated packages
 <a name="1.1.1"></a>
 
 ## [1.1.1](https://github.com/mmpro/ac-logger/compare/v1.1.0..v1.1.1) (2020-08-17 17:16:13)
