@@ -5,7 +5,7 @@
   "repository": "mmpro/ac-logger",
   "version": "1.1.2",
   "dependencies": {
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "winston": "^3.2.1"
   },
